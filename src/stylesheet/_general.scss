@@ -1,0 +1,29 @@
+.wrapper {
+  padding: 1rem 8rem;
+}
+.only-flex {
+  display: flex;
+}
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spacebet-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.space-evenly-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.margin-vertical-2rem {
+  margin: 2rem 0;
+}
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}

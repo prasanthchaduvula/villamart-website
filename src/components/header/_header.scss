@@ -1,0 +1,55 @@
+.header {
+  background-color: #fffc00;
+}
+.nav-menu {
+  align-items: center;
+}
+.logo {
+  font-family: 'Baloo 2';
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+}
+.nav-item {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left: 1rem;
+  color: #171724;
+  letter-spacing: 0.04rem;
+  // color: #4f5c65;
+}
+.selected-nav-item {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+.nav-hamburger {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.header-trans {
+  transition: all 0.25s ease-in;
+}
+.active-header-sec {
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+.active-header {
+  align-items: center;
+}
+.active-nav-menu {
+  padding: 2rem 0;
+}
+.active-header-close-btn {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+}

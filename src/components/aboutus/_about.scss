@@ -1,0 +1,108 @@
+.about-hero {
+  // background-color: $herobg;
+  padding: 3rem 0;
+}
+.about-hero-heading {
+  color: black;
+  // text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+  // color: #353e44;
+  // color: #171724;
+  line-height: 1.25;
+}
+.about-hero-subheading {
+  color: black;
+  // text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  // color: #353e44;
+  // color: #171724;
+  line-height: 1.25;
+}
+
+// about sec1
+.about-sec1-heading {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.about-sec1-para-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+}
+.about-sec1-para {
+  color: black;
+  font-size: 1rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.06rem;
+  font-weight: 400;
+}
+
+// team
+.team {
+  padding: 2rem 0;
+  background-color: #f7fafc;
+}
+.team-heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+}
+.team-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 48px;
+}
+.team-mem-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-mem-pic {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+.team-mem-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: black;
+  letter-spacing: 0.04rem;
+  padding: 0.5rem 0;
+}
+.team-mem-role {
+  color: #4f5c65;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+}
+
+// about sec2
+.about-sec2 {
+  padding: 2rem 0;
+}
+.about-sec2-heading {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+}
+.about-sec2-subheading {
+  text-align: center;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 400;
+  padding: 1rem 0;
+}
+.about-sec2-link {
+  color: black;
+  background-color: $herobg;
+  padding: 1rem;
+  border-radius: 3rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
