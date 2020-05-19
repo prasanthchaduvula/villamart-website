@@ -1,9 +1,7 @@
 .hero-section1 {
-  height: 80vh;
-  padding: 3rem 0;
   text-align: center;
   align-items: center;
-  background-color: $herobg;
+  // background-color: $herobg;
 }
 .hero-text {
   font-size: 4.5rem;
@@ -13,26 +11,27 @@
   line-height: 1.25;
 }
 .hero-caption {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   // color: #353e44;
   color: #171724;
+  // color: #171e2f;
   line-height: 1.5;
   letter-spacing: 0.06rem;
-  margin-top: 1rem;
 }
 .hero-btn {
   // background-color: #212b36;
   background-color: black;
   padding: 1rem;
   border-radius: 0.3rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: white;
   letter-spacing: 0.06rem;
-  margin: 1rem;
+  margin: 1rem 0;
   outline: none;
   border: transparent;
+  font-family: 'Roboto', sans-serif;
 }
 
 // sec1
@@ -70,6 +69,19 @@
   text-align: center;
   color: #171724;
 }
+.sec1-btn {
+  // background-color: #212b36;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.06rem;
+  margin: 1rem;
+  outline: none;
+  border: transparent;
+}
 
 // sec2
 .sec2 {
@@ -93,8 +105,7 @@
   padding-top: 3rem;
 }
 .sec2-li-item-cont {
-  background: $herobg;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   border-radius: 0.5rem;
 }
 .sec2-li-item {

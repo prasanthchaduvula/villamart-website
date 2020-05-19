@@ -30,7 +30,7 @@ class Header extends React.Component {
               {[
                 'Home',
                 'About',
-                'Famers',
+                'Farmers',
                 'Local Brands',
                 'Retailers',
                 'contact'
@@ -59,7 +59,7 @@ class Header extends React.Component {
         {/* active mobile page */}
         {isactive ? (
           <section className="header-trans">
-            <div className="active-header-sec header d-none r-d-inline">
+            <div className="bg active-header-sec header d-none r-d-inline">
               <div className="wrapper rwrapper">
                 <div className="spacebet-flex active-header">
                   <Link
@@ -79,7 +79,7 @@ class Header extends React.Component {
                     {[
                       'Home',
                       'About',
-                      'Famers',
+                      'Farmers',
                       'Local Brands',
                       'Retailers',
                       'contact'

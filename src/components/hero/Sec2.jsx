@@ -27,7 +27,7 @@ class Sec2 extends React.Component {
               }
             ].map((item, index) => (
               <div
-                className="sec2-li-item-cont margin-vertical-2rem center-flex rpd-vertical-1rem"
+                className="sec2-li-item-cont bg margin-vertical-2rem center-flex rpd-vertical-1rem"
                 key={index}
               >
                 <div>

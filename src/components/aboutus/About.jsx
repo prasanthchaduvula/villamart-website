@@ -2,22 +2,22 @@ import React from 'react';
 import Team from './Team';
 import AboutSec1 from './AboutSec1';
 import AboutSec2 from './AboutSec2';
+import AboutTop from './AboutTop';
+import Header from '../header/Header';
+import Footer from '../footer/Footer';
 
 class About extends React.Component {
   render() {
     return (
-      <section className="about">
-        <div className="wrapper rwrapper">
-          <div className="about-hero rpd-vertical-1rem">
-            <p className="about-hero-heading fs-2">About Us </p>
-            <p className="about-hero-subheading">
-              A small team driven by pursuit of adventure and fun.
-            </p>
-          </div>
+      <section>
+        <div className="bg">
+          <Header />
+          <AboutTop />
         </div>
         <AboutSec1 />
         <Team />
         <AboutSec2 />
+        <Footer />
       </section>
     );
   }

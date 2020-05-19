@@ -27,3 +27,15 @@
 .d-block {
   display: block;
 }
+.bg {
+  background-image: linear-gradient(134deg, #00ffa3 0%, #4baef7 100%);
+}
+.bg-black {
+  background: yellow;
+}
+.height-100vh {
+  height: 100vh;
+}
+.height-100vh-72px {
+  height: calc(100vh - 72px);
+}

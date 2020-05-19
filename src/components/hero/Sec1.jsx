@@ -18,7 +18,7 @@ class Sec1 extends React.Component {
             Sell directly and make 20% more revenue from your doorstep.
             Tranparent weighing. Payment in 24 hours. Cold storage facility
           </p>
-          <button className="hero-btn center-flex" to="">
+          <button className="sec1-btn center-flex" to="">
             <FiPhone /> <span> 7680918423</span>
           </button>
         </div>
@@ -29,7 +29,7 @@ class Sec1 extends React.Component {
             Get access to chain of retailers, small kirana stores. Sell from
             your doorstep. Storage and inventory facility
           </p>
-          <Link className="hero-btn" to="/">
+          <Link className="sec1-btn" to="/">
             Join as Local Brand
           </Link>
         </div>
@@ -40,7 +40,7 @@ class Sec1 extends React.Component {
             Competitive pricing. Doorstep delivery. High quality graded produce.
             Convinent, time saving and with ease
           </p>
-          <Link className="hero-btn" to="">
+          <Link className="sec1-btn" to="">
             Join as Retailer
           </Link>
         </div>

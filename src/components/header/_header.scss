@@ -1,5 +1,6 @@
 .header {
-  background-color: #fffc00;
+  // background-color: #fffc00;
+  padding: 0.5rem 0;
 }
 .nav-menu {
   align-items: center;
@@ -12,16 +13,17 @@
   cursor: pointer;
 }
 .nav-item {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   margin-left: 1rem;
-  color: #171724;
+  // color: #171724;
+  color: #171e2f;
   letter-spacing: 0.04rem;
   // color: #4f5c65;
 }
 .selected-nav-item {
   color: black;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   margin-left: 1rem;
 }

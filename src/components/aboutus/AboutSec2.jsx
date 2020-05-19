@@ -10,7 +10,7 @@ function AboutSec2() {
           Read more about villamart and our latest news.
         </p>
         <div className="center-flex">
-          <Link className="about-sec2-link" to="/">
+          <Link className="about-sec2-link bg" to="/">
             Go to Press & Media Page
           </Link>
         </div>
