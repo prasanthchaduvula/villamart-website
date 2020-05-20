@@ -1,0 +1,42 @@
+.farmer-sec1-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3rem 0;
+  grid-row-gap: 5rem;
+  grid-column-gap: 1rem;
+}
+.farmer-sec1-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.farmer-sec1-item-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16rem;
+  height: 8rem;
+}
+.farmer-sec1-item-img {
+  font-size: 3rem;
+  color: black;
+  font-weight: 100;
+}
+.farmer-sec1-item-right {
+  margin-left: 1rem;
+}
+.farmer-sec1-item-right-heading {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: black;
+  letter-spacing: 0.04rem;
+}
+.farmer-sec1-item-right-subheading {
+  color: rgba(23, 30, 47, 0.5);
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  line-height: 1.25;
+  letter-spacing: 0.04rem;
+  font-family: 'Roboto', sans-serif;
+}
