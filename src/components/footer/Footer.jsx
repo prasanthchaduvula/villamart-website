@@ -25,7 +25,7 @@ class Footer extends React.Component {
               </section>
               <section className="footer-col rpt-1">
                 <p className="footer-col-heading">RESOURCES</p>
-                {['Farmers', 'Local Brands', 'Retailer', 'Faq'].map(
+                {['Farmers', 'Local Brands', 'Retailers', 'Faq'].map(
                   (item, index) => (
                     <Link
                       to={`/${item.toLowerCase().split(' ').join('')}`}

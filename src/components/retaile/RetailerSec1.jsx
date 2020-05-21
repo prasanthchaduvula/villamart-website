@@ -8,7 +8,7 @@ import {
 import { BsBuilding } from 'react-icons/bs';
 import { FaRegMoneyBillAlt } from 'react-icons/fa';
 
-class FarmerSec1 extends React.Component {
+class RetailerSec1 extends React.Component {
   render() {
     return (
       <section className="wrapper rwrapper ">
@@ -97,4 +97,4 @@ class FarmerSec1 extends React.Component {
   }
 }
 
-export default FarmerSec1;
+export default RetailerSec1;
