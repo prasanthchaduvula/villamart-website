@@ -1,15 +1,16 @@
 import React from 'react';
 import Hero from './hero/Hero';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import About from './aboutus/About';
 import Farmer from './farmers/Farmer';
 import Brands from './brands/Brands';
 import Retailer from './retaile/Retailer';
 import Contact from './contact/Contact';
+import News from './news/News';
 
 function App() {
   return (
-    <div className="App">
+    <Switch>
       <Route exact path="/">
         <Hero />
       </Route>
@@ -28,7 +29,10 @@ function App() {
       <Route exact path="/contact">
         <Contact />
       </Route>
-    </div>
+      <Route exact path="/news">
+        <News />
+      </Route>
+    </Switch>
   );
 }
 

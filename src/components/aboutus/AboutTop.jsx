@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class AboutTop extends React.Component {
   render() {
@@ -10,6 +11,11 @@ class AboutTop extends React.Component {
             <p className="about-hero-subheading">
               A small team driven by pursuit of adventure and fun.
             </p>
+            <div className="center-flex">
+              <Link className="hero-btn center-flex" to="/news">
+                Check Our News to Know More
+              </Link>
+            </div>
           </div>
         </div>
       </div>
