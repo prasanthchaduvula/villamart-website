@@ -33,8 +33,11 @@ footer {
   line-height: 1.5;
   padding: 0.5rem 0;
   letter-spacing: 0.06rem;
+  display: block;
 }
-
+.footer-col-items-selected {
+  font-weight: 700;
+}
 .footer-cont-right-top {
   align-items: center;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 class Footer extends React.Component {
   render() {
@@ -9,29 +9,35 @@ class Footer extends React.Component {
         <div className="wrapper rwrapper">
           <div className="spacebet-flex r-d-block">
             <div className="footer-cont-left spacebet-flex r-d-block">
-              <p className="f-logo">Villamart</p>
+              <NavLink to="/">
+                <p className="f-logo">Villamart</p>
+              </NavLink>
               <section className="footer-col rpt-1">
                 <p className="footer-col-heading">COMPANY</p>
                 {['About', 'Careers', 'Blog', 'News', 'Contact'].map(
                   (item, index) => (
-                    <Link
+                    <NavLink
                       to={`/${item.toLowerCase().split(' ').join('')}`}
                       key={index}
+                      activeClassName="footer-col-items-selected"
+                      className="footer-col-items"
                     >
-                      <li className="footer-col-items">{item}</li>
-                    </Link>
+                      {item}
+                    </NavLink>
                   )
                 )}
               </section>
               <section className="footer-col rpt-1">
                 <p className="footer-col-heading">RESOURCES</p>
                 {['Farmers', 'Local Brands', 'Retailers'].map((item, index) => (
-                  <Link
+                  <NavLink
                     to={`/${item.toLowerCase().split(' ').join('')}`}
                     key={index}
+                    activeClassName="footer-col-items-selected"
+                    className="footer-col-items"
                   >
-                    <li className="footer-col-items">{item}</li>
-                  </Link>
+                    {item}
+                  </NavLink>
                 ))}
               </section>
             </div>
