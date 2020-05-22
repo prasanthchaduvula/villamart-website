@@ -5,6 +5,9 @@ import RetailerTop from './RetailerTop';
 import RetailerSec1 from './RetailerSec1';
 
 class Retailer extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <section className="">

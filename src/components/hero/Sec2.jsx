@@ -49,7 +49,7 @@ class Sec2 extends React.Component {
             order from anywhere at any time of the day and get delivery at your
             doorstep.
           </p>
-          <Link to="/" className="sec2-btn">
+          <Link to="/about" className="sec2-btn">
             Know More
           </Link>
         </div>

@@ -7,6 +7,9 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 
 class About extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <section>

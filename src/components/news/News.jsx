@@ -6,6 +6,9 @@ import NewsSec1 from './NewsSec1';
 import NewsSec2 from './NewsSec2';
 
 class News extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <section className="">

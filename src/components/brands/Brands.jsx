@@ -5,6 +5,9 @@ import BrandsSec1 from './BrandsSec1';
 import BrandsTop from './BrandsTop';
 
 class Brands extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <section className="">

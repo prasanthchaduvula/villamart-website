@@ -5,6 +5,9 @@ import Header from '../header/Header';
 import FarmerSec1 from './FarmerSec1';
 
 class Farmer extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <section className="">
