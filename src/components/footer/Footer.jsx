@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class Footer extends React.Component {
   render() {

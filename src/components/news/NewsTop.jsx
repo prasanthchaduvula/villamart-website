@@ -11,7 +11,7 @@ class NewsTop extends React.Component {
             Our Journey so far on Your fingers
           </p>
           <div className="center-flex">
-            <Link className="hero-btn center-flex" to="/blog">
+            <Link className="about-hero-btn center-flex" to="/blog">
               Check Our Blog to learn
             </Link>
           </div>

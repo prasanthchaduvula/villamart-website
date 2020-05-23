@@ -12,7 +12,7 @@ class AboutTop extends React.Component {
               A small team driven by pursuit of adventure and fun.
             </p>
             <div className="center-flex">
-              <Link className="hero-btn center-flex" to="/news">
+              <Link className="about-hero-link center-flex" to="/news">
                 Check Our News to Know More
               </Link>
             </div>

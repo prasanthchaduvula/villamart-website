@@ -11,7 +11,7 @@ class ContactTop extends React.Component {
             We are always at your service.
           </p>
           <div className="center-flex">
-            <button className="hero-btn center-flex" to="">
+            <button className="about-hero-btn center-flex" to="">
               <FiPhone /> <span className="fs-1"> 7680918423</span>
             </button>
           </div>

@@ -5,7 +5,7 @@ class NewsSec2 extends React.Component {
     return (
       <section className="news-sec2 height-fit center-flex rpd-vertical-1rem">
         <div className="news-sec2-cont wrapper rwrapper">
-          <p className="news-sec2-heading fs-2">Awards and Recognition</p>
+          <p className="news-sec2-heading fs-1-5">Awards and Recognition</p>
           <div className="news-sec2-imgs-cont r-d-block">
             {[
               'sec3item1.jpg',

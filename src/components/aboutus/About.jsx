@@ -5,6 +5,7 @@ import AboutSec2 from './AboutSec2';
 import AboutTop from './AboutTop';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
+import Timeline from './Timeline';
 
 class About extends React.Component {
   componentDidMount() {
@@ -18,6 +19,7 @@ class About extends React.Component {
           <AboutTop />
         </div>
         <AboutSec1 />
+        <Timeline />
         <Team />
         <AboutSec2 />
         <Footer />

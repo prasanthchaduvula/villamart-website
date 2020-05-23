@@ -20,22 +20,47 @@
   // color: #171724;
   line-height: 1.25;
 }
-
+.about-hero-link {
+  line-height: 1.5;
+  color: #e6375a;
+  font-size: 1.1rem;
+  font-weight: 400;
+  // background: #171e2f;
+  text-decoration: underline;
+  margin-top: 0.3rem;
+  line-height: 1.5;
+}
+.about-hero-btn {
+  background-color: #171e2f;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 0.06rem;
+  margin: 1rem 0;
+  outline: none;
+  border: transparent;
+}
 // about sec1
+.about-sec1 {
+  padding-top: 2rem;
+}
 .about-sec1-heading {
   color: black;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 500;
+  text-align: center; //exra
+  padding: 1rem 0;
 }
 .about-sec1-para-cont {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 3rem;
+  //   display: grid;
+  //   grid-template-columns: 1fr 1fr;
+  //   grid-gap: 3rem;
 }
 .about-sec1-para {
   color: black;
-  font-size: 1rem;
-  padding: 1rem 0;
+  font-size: 1.1rem;
   line-height: 1.5;
   letter-spacing: 0.06rem;
   font-weight: 400;

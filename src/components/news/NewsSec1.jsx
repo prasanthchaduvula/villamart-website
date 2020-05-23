@@ -3,40 +3,30 @@ import React from 'react';
 class NewsSec1 extends React.Component {
   render() {
     return (
-      <section className="center-flex">
+      <section className="news-sec1 rpd-vertical-1rem">
         <div className="wrapper rwrapper">
-          <div className="timeline-sec">
-            <p className="timeline-heading">Journey Upto Now</p>
-            <div className="timeline-cont">
-              {[
-                {
-                  time: 'DEC 2017',
-                  activity:
-                    'starting with the idea of occupation starting with the idea of occupation starting with the idea of occupation starting with the idea of occupation'
-                },
-                {
-                  time: 'MARCH 2018',
-                  activity: 'starting with the idea of occupation'
-                },
-                {
-                  time: 'JUNE 2018',
-                  activity: 'starting with the idea of occupation'
-                },
-                {
-                  time: 'NOV 2018',
-                  activity: 'starting with the idea of occupation'
-                }
-              ].map((item, index) => (
-                <li className="timeline-item-li width-full" key={index}>
-                  <span className="timeline-pointer">.</span>
-                  <div className="timeline-item-wrapper">
-                    <p className="timeline-time">{item.time}</p>
-                    <p className="timeline-activity">{item.activity}</p>
-                  </div>
-                </li>
-              ))}
+          <p className="press-rel-heading">Press Releases</p>
+          {[
+            {
+              date: 'FEBRUARY 25, 2020',
+              link:
+                'https://yourstory.com/socialstory/2020/02/agri-startup-villa-mart-iit-alumnus-farmers-produce-mobile-market',
+              content:
+                'This agri startup is weeding out middlemen to get farmers the best price for produce'
+            }
+          ].map((item, index) => (
+            <div className="news-link-wrapper" key={index}>
+              <p className="news-date fs-1">{item.date}</p>
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="news-links fs-1-3"
+              >
+                {item.content}
+              </a>
             </div>
-          </div>
+          ))}
         </div>
       </section>
     );

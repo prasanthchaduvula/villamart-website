@@ -2,7 +2,7 @@
   padding: 1rem 0;
 }
 .timeline-heading {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 0.04rem;
   text-align: center;
@@ -39,7 +39,7 @@
   border-radius: 0.3rem;
 }
 .timeline-activity {
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.5;
   padding-top: 0.5rem;
   letter-spacing: 0.04rem;
@@ -55,7 +55,7 @@
 }
 .news-sec2-heading {
   color: black;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.38;
   text-align: center;
@@ -73,4 +73,45 @@
 .news-sec2-img {
   width: 10rem;
   height: 7rem;
+}
+
+// news links
+.news-sec1 {
+  padding: 1rem 0;
+}
+.press-rel-heading {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: black;
+}
+.news-link-wrapper {
+  padding: 2rem 0;
+}
+.news-date {
+  font-weight: 300;
+  font-size: 1rem;
+  color: black;
+  line-height: 1.5;
+  letter-spacing: 0.06rem;
+  padding-bottom: 0.3rem;
+}
+.news-links {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: black;
+  border-bottom: 5px solid rgb(255, 252, 17);
+  line-height: 2;
+  letter-spacing: 0.04rem;
+  background: rgb(255, 252, 17);
+}
+
+// numbers
+.numbers-sec {
+  padding-top: 2rem;
+}
+.numbers-heading {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: black;
+  text-align: center;
 }
